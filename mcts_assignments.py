@@ -7,6 +7,8 @@ from collections import defaultdict, deque
 import math, random, time
 import concurrent.futures
 import argparse
+import os
+import multiprocessing
 
 
 class DataSet:
@@ -52,14 +54,16 @@ class DataSet:
 
 
 class RoomLog:
-    def __init__(self, dataset, sede: str):
+    def __init__(self, dataset, sede: str, periodo_franja: str):
         self.dataset = dataset
         self.sede = sede
+        self.periodo_franja = periodo_franja
         self.dim_aulas = dataset.dim_aulas[sede].copy()
         self.dim_periodo_franja = dataset.dim_periodo_franja.copy()
         self.dim_frecuencia = dataset.dim_frecuencia.copy()
         self.dim_horario = dataset.dim_horario.copy()
-        self.items = dataset.items[sede].copy()
+        # self.items = dataset.items[sede].copy()
+        self.items = self.get_items(sede)
         self.items_bimestral = self.get_items_bimestral(sede)
         self.roomlog = self.get_roomlog()
         self.idx_item = 0
@@ -70,6 +74,14 @@ class RoomLog:
         if sede not in self.dataset.items_bimestral:
             return []
         return self.dataset.items_bimestral[sede]
+
+    def get_items(self, sede: str):
+        collection = []
+        items = self.dataset.items[sede].copy()
+        for item in items:
+            if self.dim_frecuencia[item['FRECUENCIA']]['PERIODO_FRANJA'] == self.periodo_franja:
+                collection.append(item)
+        return collection
     
     def get_roomlog(self):
         # self = env_01
@@ -86,7 +98,8 @@ class RoomLog:
                         room_log[aula][dia][franja] = 0
 
         for item in self.items_bimestral:
-            # conflict = 0
+            assert self.dim_frecuencia[item['FRECUENCIA']]['PERIODO_FRANJA'] == '2. Sab'
+            
             dias = self.dim_frecuencia[item['FRECUENCIA']]['DIAS']
             franjas = self.dim_horario[item['HORARIO']]
             for dia in dias:
@@ -95,7 +108,7 @@ class RoomLog:
         return room_log
 
     def clone(self):
-        g = RoomLog(self.dataset, self.sede)
+        g = RoomLog(self.dataset, self.sede, self.periodo_franja)
         g.idx_item = self.idx_item
         g.roomlog = copy.deepcopy(self.roomlog.copy())
         return g
@@ -157,7 +170,7 @@ class RoomLog:
         return available
 
     def is_terminal(self):
-        return self.idx_item >= self.n_items | (len(self.get_available_actions()) == 0)
+        return (self.idx_item >= self.n_items) | (len(self.get_available_actions()) == 0)
 
 
 class Node:
@@ -252,9 +265,10 @@ def UCT(state, iter_max=5000, c_param=math.sqrt(2)):
     return best_child.move, root_node, clone  # also return root node so the caller can inspect children statistics
 
 
-def UCT_worker(state, iter_max, c_param):
+def UCT_worker(args):
+    state, iter_max, c_param = args
     # Clone state for isolation
-    cloned_state = RoomLog(state.dataset, state.sede)
+    cloned_state = RoomLog(state.dataset, state.sede, state.periodo_franja)
     cloned_state.idx_item = state.idx_item
     cloned_state.roomlog = copy.deepcopy(state.roomlog)
 
@@ -262,20 +276,32 @@ def UCT_worker(state, iter_max, c_param):
     return root
 
 
-def parallel_UCT(state, iter_max=5000, c_param=math.sqrt(2), n_workers=4):
+def parallel_UCT(state, iter_max=5000, c_param=math.sqrt(2)):
+    # max_workers=12
+    # get n_cores
+    # n_cores = os.cpu_count()
     # split iterations across workers
-    iters_per_worker = iter_max // n_workers
+
+    n_cores = os.cpu_count()
+
+    iters_per_worker = iter_max // n_cores
     roots = []
+    
+    with multiprocessing.Pool(processes=n_cores) as pool:
+        # run mcts
+        results = pool.map(UCT_worker, [(state, iters_per_worker, c_param) for _ in range(n_cores)])
+        for result in results:
+            roots.append(result)
 
-    with concurrent.futures.ProcessPoolExecutor(
-            max_workers=n_workers) as executor:
-        futures = [
-            executor.submit(
-                UCT_worker, state, iters_per_worker, c_param)
-            for _ in range(n_workers)]
-
-        for f in concurrent.futures.as_completed(futures):
-            roots.append(f.result())
+    # with concurrent.futures.ProcessPoolExecutor(
+    #         max_workers=max_workers) as executor:
+    #     futures = [
+    #         executor.submit(
+    #             UCT_worker, state, iters_per_worker, c_param)
+    #         for _ in range(max_workers)]
+    # 
+    #     for f in concurrent.futures.as_completed(futures):
+    #         roots.append(f.result())
 
     # merge children statistics from workers
     merged_root = Node(move=None, parent=None,
@@ -297,11 +323,11 @@ def parallel_UCT(state, iter_max=5000, c_param=math.sqrt(2), n_workers=4):
     return best_child.move, merged_root, state
 
 
-def run(sede):
+def run_mcts(sede: str, periodo_franja: str, iter_max: int = 5000):
     # --- Demo: use UCT on an empty RoomLog board ---
     path = Path("project")
-    dataset_01 = DataSet(path)
-    state = RoomLog(dataset_01, sede)
+    data = DataSet(path)
+    state = RoomLog(data, sede, periodo_franja)
     aulas = []
     total_time = time.time()
     while state.idx_item < len(state.items):
@@ -312,7 +338,7 @@ def run(sede):
                                      'AFORO': None}
             state.idx_item += 1
         else:
-            move, root_node, state = parallel_UCT(state, iter_max=2000, n_workers=7)
+            move, root_node, state = parallel_UCT(state, iter_max=iter_max)
             # move, root_node, state = UCT(state, iter_max=5000)   # 2000 rollouts from empty board
             result['ASSIGNMENTS'] = {'AULA':state.dim_aulas['AULA'][move],
                                      'AFORO':state.dim_aulas['AFORO'][move]}
@@ -324,19 +350,35 @@ def run(sede):
         remaining_time = duration_per_item * (len(state.items) - state.idx_item)
         to_time = lambda x: time.strftime('%H:%M:%S', time.gmtime(x))
         print(f"Total duration: {to_time(total_duration)} | Actual duration: {to_time(duration)} | Remaining time: {to_time(remaining_time)} | {state.idx_item}/{len(state.items)}", end="\r")
-        
     print()
+    # return aulas
+    
     df = pd.DataFrame(aulas)
     Path('output').mkdir(exist_ok=True)
 
     df.to_excel('output/assignments_{}.xlsx'.format(sede), index=False)
+
+# multiprocessing
+# def run_mcts_parallel(sede: str, iter_max: int = 5000):
+#     periodos_franjas = ['1. Lun - Vie', '2. Sab']
+#     # Number of cores
+#     n_cores = os.cpu_count()
+#     
+#     with multiprocessing.Pool(processes=n_cores) as pool:
+#         # run mcts
+#         results = pool.map(run_mcts, [(sede, periodo_franja, iter_max) for periodo_franja in periodos_franjas])
+#     # return results
+#     return results
+# 
 
 
 if __name__ == '__main__':
     # create argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--sede", type=str, default="Ica")
+    parser.add_argument("--iter_max", type=int, default=5000)
+    parser.add_argument("--periodo_franja", type=str, default="1. Lun - Vie")
     args = parser.parse_args()
-    run(args.sede)
+    run_mcts(args.sede, args.periodo_franja, args.iter_max)
 
 
