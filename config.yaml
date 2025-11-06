@@ -1,0 +1,10 @@
+# config.yaml
+db_path: "database/database.db"
+log_path: "logs"
+data_path: "data"
+log_file: "pipeline.log"
+excel_path: "raw"
+periodo_predict: 202511
+ult_periodo: 202510
+n_periodos: 3
+full: false
