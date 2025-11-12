@@ -331,17 +331,16 @@ class DataTransformer:
             FROM dim_dias_turnos
             """
             )
-
-        df_dias_turnos['AVAILABLE'] = 1
+        
         df_dias_turnos['TURNO_AVAILABLE'] = (
-            df_dias_turnos[['TURNO', 'AVAILABLE']].apply(lambda x: {'TURNO':x['TURNO'], 'AVAILABLE':x['TURNO']}, axis=1))
-
-
-        df_dias_01 = df_dias_turnos.groupby(['FRECUENCIA'], as_index=False).agg(
-            DIAS=pd.NamedAgg(column='DIA', aggfunc=lambda x: list(x))
+            df_dias_turnos[['TURNO', 'AVAILABLE']].apply(lambda x: {'TURNO':x['TURNO'], 'AVAILABLE':1}, axis=1))
+        
+        df_dias_turnos_01 = df_dias_turnos.groupby(['DIA'], as_index=False).agg(
+            DIAS=pd.NamedAgg(column='TURNO_AVAILABLE', aggfunc=lambda x: list(x))
         )
+        
         print(f"Successfully read dim_dias")
-        return df_dias_01
+        return df_dias_turnos_01
     
     def validate_fact_data(
         self, fact_data:pd.DataFrame, table_name:str, dim_curso:pd.DataFrame, 
@@ -669,6 +668,46 @@ class DataTransformer:
         with open(f'{self.data_path}/{self.dim_path}/frecuencia.json', 'w') as file:
             file.write(dumps(df_dim_sedes_dict, ensure_ascii=False, indent=4))
     
+    def get_room_log(self):
+        df_dim_aulas = self.get_dim_aulas()
+        df_dim_dias_turnos = self.get_dim_dias_turnos()
+        df_dim_room_log = df_dim_aulas.merge(
+            df_dim_dias_turnos,
+            how='cross'
+        )
+
+        df_dim_room_log.groupby(
+            ['PERIODO', 'SEDE']
+        ).agg(
+            AULAS = pd.Name
+        )
+
+        df_dias_turnos_01 = df_dias_turnos.groupby(['DIA'], as_index=False).agg(
+            DIAS=pd.NamedAgg(column='TURNO_AVAILABLE', aggfunc=lambda x: list(x))
+        )
+
+        if self.full:
+                for group, data in df_dim_room_log.groupby('PERIODO'):
+                    periodo = group
+                    year = periodo//100
+                    Path(f'{self.data_path}/{self.room_log_path}').mkdir(parents=True, exist_ok=True)
+                    Path(f'{self.data_path}/{self.room_log_path}/{year}').mkdir(parents=True, exist_ok=True)
+                    data_dict = data.to_dict(
+                        orient='records')
+                    if len(data_dict) == 0:
+                        continue
+                    with open(f'{self.data_path}/{self.room_log_path}/{year}/room_log_{periodo}.json', 'w') as file:
+                        file.write(dumps(data_dict, ensure_ascii=False, indent=4))
+            else:
+                periodo = self.periodo_predict
+                year = periodo//100
+                Path(f'{self.data_path}/{self.room_log_path}').mkdir(parents=True, exist_ok=True)
+                Path(f'{self.data_path}/{self.room_log_path}/{year}').mkdir(parents=True, exist_ok=True)
+                data_predict_presencial_dict = data_predict_presencial_01.to_dict(
+                    orient='records')
+                with open(f'{self.data_path}/{self.room_log_path}/{year}/room_log_{periodo}.json', 'w') as file:
+                    file.write(dumps(data_predict_presencial_dict, ensure_ascii=False, indent=4))
+        
     def get_rewards_sedes(self):
         df_dim_rewards_sedes = self.get_dim_rewards_sedes()
         df_dim_rewards_sedes_dict = df_dim_rewards_sedes.to_dict(
