@@ -9,7 +9,7 @@ from datetime import datetime
 from models import Base
 from models import (
             FactProgAcad, FactPredict, DimHorario, DimAulas, DimSedes,
-            DimRewardsSedes, DimVacAcad, DimHorariosAtencion, DimCursos, FactProvicional
+            DimRewardsSedes, DimVacAcad, DimHorariosAtencion, DimCursos, FactProvicional, DimDias
         )
 
 
@@ -24,8 +24,8 @@ table_model_map = {
     'dim_vac_acad': DimVacAcad,
     'dim_horarios_atencion': DimHorariosAtencion,
     'dim_cursos': DimCursos,
-    'fact_provicional': FactProvicional
-            }
+    'fact_provicional': FactProvicional,
+    'dim_dias': DimDias}
 
 
 class DatabaseManager:

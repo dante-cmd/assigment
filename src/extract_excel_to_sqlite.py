@@ -189,7 +189,7 @@ class ExcelExtractor:
 
         df_aulas_normalized['AFORO'] = df_aulas_normalized['AFORO'].astype('int32')
         df_aulas_normalized_active = df_aulas_normalized.loc[
-            df_aulas_normalized['AFORO'] > 0, ['PERIODO', 'SEDE', 'N_AULA', 'AFORO']].copy()
+            (df_aulas_normalized['AFORO'] > 0) & (df_aulas_normalized['PERIODO'] >= 202206), ['PERIODO', 'SEDE', 'N_AULA', 'AFORO']].copy()
 
         print(f"Successfully read dim_aulas")
         self.db.insert_dataframe('dim_aulas', df_aulas_normalized_active)
@@ -298,7 +298,7 @@ class ExcelExtractor:
         df_cursos['NIVEL'] = df_cursos['NIVEL'].astype('string')
         df_cursos['CURSO_ANTERIOR'] = df_cursos['CURSO_ANTERIOR'].astype('string')
         df_cursos['CURSO_ACTUAL'] = df_cursos['CURSO_ACTUAL'].astype('string')
-        df_cursos_subset = df_cursos.loc[:, ['FRECUENCIA', 'NIVEL', 'CURSO_ANTERIOR', 'CURSO_ACTUAL']].copy()
+        df_cursos_subset = df_cursos.loc[:, ['FRECUENCIA', 'NIVEL', 'CURSO_ANTERIOR', 'CURSO_ACTUAL', 'DURACION']].copy()
         print(f"Successfully read dim_cursos")
         self.db.insert_dataframe('dim_cursos', df_cursos_subset)
 
@@ -321,6 +321,41 @@ class ExcelExtractor:
         print(f"Successfully read fact_provicional")
         self.db.insert_dataframe('fact_provicional', df_provicional_subset)
         
+    def fetch_dim_dias(self):
+        raw_path = Path(self.excel_path)
+        df_dias = pd.read_excel(
+            raw_path / 'dim'/'Horarios Merge.xlsx', sheet_name='FRECUENCIAS')
+        df_dias.columns = df_dias.columns.astype('string')
+        df_dias.columns = df_dias.columns.str.strip().str.upper()
+        df_dias.columns = df_dias.columns.str.replace('.', '')
+        df_dias.columns = df_dias.columns.str.replace(' ', '_').map(unidecode)
+        df_dias_melt = df_dias.melt(
+            id_vars=['FRECUENCIA'],
+            value_vars=['LUN', 'MAR', 'MIE', 'JUE', 'VIE', 'SAB', 'DOM'],
+            var_name='DIA',
+            value_name='FLAG_ACTIVA'
+        )
+        
+        df_dias_melt['FLAG_ACTIVA'] = df_dias_melt['FLAG_ACTIVA'].astype('int')
+        df_dias_melt['FRECUENCIA'] = df_dias_melt['FRECUENCIA'].astype('string')
+        df_dias_melt['DIA'] = df_dias_melt['DIA'].astype('string')
+        df_dias_melt_active = df_dias_melt.loc[df_dias_melt['FLAG_ACTIVA'] == 1, ['FRECUENCIA', 'DIA']].copy()
+
+        print(f"Successfully read dim_dias")
+        self.db.insert_dataframe('dim_dias', df_dias_melt_active)
+
+    def fetch_dim_dias_turnos(self):
+        raw_path = Path(self.excel_path)
+        df_dias_turnos = pd.read_excel(
+            raw_path / 'dim' / 'Horarios Merge.xlsx', sheet_name='DIA_TURNO')
+        df_dias_turnos.columns = df_dias_turnos.columns.astype('string')
+        df_dias_turnos.columns = df_dias_turnos.columns.str.strip().str.upper()
+        df_dias_turnos.columns = df_dias_turnos.columns.str.replace('.', '')
+        df_dias_turnos.columns = df_dias_turnos.columns.str.replace(' ', '_').map(unidecode)
+
+        print(f"Successfully read dim_dias_turnos")
+        self.db.insert_dataframe('dim_dias_turnos', df_dias_turnos)
+    
     def fecth_all(self):
         self.fetch_fact_prog_acad()
         self.fetch_fact_predict()
@@ -332,6 +367,8 @@ class ExcelExtractor:
         self.fetch_dim_horarios_atencion()
         self.fetch_dim_cursos()
         self.fetch_fact_provicional()
+        self.fetch_dim_dias()
+        self.fetch_dim_dias_turnos()
 
 
 if __name__ == '__main__':
@@ -344,7 +381,7 @@ if __name__ == '__main__':
     db_path = config['db_path']
     excel_path = config['excel_path']
 
-    drop_all = False
+    drop_all = True
     db = DatabaseManager(db_path, drop_all)
     db.initialize_database()
     extractor = ExcelExtractor(periodo_predict, ult_periodo, n_periodos, full, db, excel_path)

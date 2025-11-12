@@ -11,7 +11,7 @@ from pathlib import Path
 
 class LakeLoader:
     def __init__(self,
-                 base_path: str = 'raw'):
+                 base_path: str):
         self.base_path = base_path
 
     def upload_directory_to_blob(self, connection_string: str, container_name: str, source_folder: str):

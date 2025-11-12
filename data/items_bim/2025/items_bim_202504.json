@@ -1,0 +1,7276 @@
+[
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "206",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Pucallpa",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "B00BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "1404",
+        "CANT_MATRICULADOS": 5,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "308",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "503",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "308",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "801",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "804",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "104",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "507",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "210",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "206",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "104",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "504",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B00BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "B00BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "807",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B00BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "321",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B00BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "102",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "KN1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PK1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "KN1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PK1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "07:00 - 10:36",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41",
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B02BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "314",
+        "CANT_MATRICULADOS": 26,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B03BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "312",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "102",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "C06S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "418",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "305",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "104",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "104",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "314",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "105",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "410",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "105",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "106",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "312",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "406",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "106",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "422",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "406",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "207",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "207",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "207",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "KN1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "106",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "102",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "KN3SP",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "106",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "105",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PK4SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "101",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "421",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "206",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "314",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "318",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "16:35 - 18:16",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "T01SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "207",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "T02SP",
+        "HORARIO": "07:00 - 08:41",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "07:00 - 08:41"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "T03SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "308",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "T04SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "Y01S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "Y02S",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "Y03S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B04BP",
+        "HORARIO": "14:40 - 18:16",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21",
+            "16:35 - 18:16"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B05BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "312",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B06BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "315",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B07BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "B08BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "317",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "502",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "B03BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "316",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "312",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "314",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "315",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "316",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "406",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "T01SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "T02SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "313",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "C06S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "315",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "211",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "210",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "305",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "308",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "312",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "104",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "KN4SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "207",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "103",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "Y01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "Y03S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "508",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "507",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "409",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "412",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "C06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "602",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "604",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "605",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "410",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "411",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "607",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "608",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "703",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "412",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "606",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PK3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "704",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "705",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "706",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "707",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "708",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "601",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "Y01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "506",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "B03BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "512",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "I01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "802",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "INT",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "406",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "504",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "C06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "510",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "101",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "510",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "512",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "101",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "KN3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "102",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "KN4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "305",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "305",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "Y01S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "Y02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "604",
+        "CANT_MATRICULADOS": 25,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B03BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "710",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B04BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "802",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B08BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "804",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "512",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "609",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "608",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "705",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "609",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "706",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "706",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "709",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "602",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "506",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "603",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "509",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "605",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "602",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "T01SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "504",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "Y03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "506",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "811",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "504",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "507",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "509",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "C04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "510",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "802",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "804",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "603",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "803",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "801",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "605",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "609",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "606",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "611",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "607",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "702",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "502",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "505",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "407",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "503",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "506",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PK1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "704",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "705",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "608",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "706",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "609",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "711",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "610",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "Y02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "508",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "Y02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "511",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "Y03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "509",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "Y04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "511",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "B03BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "1302",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "B04BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "809",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "B12BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "1002",
+        "CANT_MATRICULADOS": 6,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "10:50 - 14:26",
+        "AULA": "503",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31",
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "B01BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "S306",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "C01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "C02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "413",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "C04S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "406",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "C06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "414",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "410",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "306",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "411",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "412",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "413",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "414",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "405",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K04S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "K06S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 21,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "311",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "Y01S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "Y02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "B06BP",
+        "HORARIO": "08:55 - 12:31",
+        "AULA": "509",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36",
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "C03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "202",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "101",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "KN4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "101",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "201",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "T02SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "402",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Chimbote",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "C05S",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "K03S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 18,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "B07BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "403",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT5SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "310",
+        "CANT_MATRICULADOS": 8,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "502",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "T03SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "501",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR7SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "511",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "KN2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "309",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "304",
+        "CANT_MATRICULADOS": 9,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT1SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "506",
+        "CANT_MATRICULADOS": 22,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "511",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "S207",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "T01SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "502",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "305",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 23,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "401",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR8SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "504",
+        "CANT_MATRICULADOS": 7,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "PT6SP",
+        "HORARIO": "12:45 - 14:26",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "B02BP",
+        "HORARIO": "12:45 - 16:21",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 24,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "BAS",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "12:45 - 14:26",
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 30
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "414",
+        "CANT_MATRICULADOS": 10,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "KN3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "204",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Miraflores",
+        "CURSO_ACTUAL": "KN4SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "205",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "KN4SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "PK2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "303",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "IST",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 15
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR5SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "602",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "404",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "T02SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "601",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "T01SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "408",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 12,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "422",
+        "CANT_MATRICULADOS": 20,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Centro",
+        "CURSO_ACTUAL": "Y05S",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "14:40 - 16:21",
+        "AULA": "301",
+        "CANT_MATRICULADOS": 13,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "14:40 - 16:21"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K02S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "206",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "307",
+        "CANT_MATRICULADOS": 16,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Lima Norte Satélite",
+        "CURSO_ACTUAL": "K05S",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "203",
+        "CANT_MATRICULADOS": 11,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST1",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Surco",
+        "CURSO_ACTUAL": "JR2SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "210",
+        "CANT_MATRICULADOS": 14,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "San Miguel",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "08:55 - 10:36",
+        "AULA": "605",
+        "CANT_MATRICULADOS": 15,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "08:55 - 10:36"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "La Molina",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 19,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    },
+    {
+        "PERIODO": 202504,
+        "SEDE": "Iquitos",
+        "CURSO_ACTUAL": "JR3SP",
+        "HORARIO": "10:50 - 12:31",
+        "AULA": "302",
+        "CANT_MATRICULADOS": 17,
+        "FRECUENCIA": "Sabatino",
+        "NIVEL": "ST2",
+        "DURACION": "Bimensual",
+        "PERIODO_FRANJA": "2. Sab",
+        "TURNOS": [
+            "10:50 - 12:31"
+        ],
+        "DIAS": [
+            "SAB"
+        ],
+        "VAC_ACAD_ESTANDAR": 23
+    }
+]

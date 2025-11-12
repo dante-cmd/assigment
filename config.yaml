@@ -2,9 +2,13 @@
 db_path: "database/database.db"
 log_path: "logs"
 data_path: "data"
+items_predict: "items_predict"
+dim: "dim"
+items: "items"
+items_bim: "items_bim"
 log_file: "pipeline.log"
 excel_path: "raw"
-periodo_predict: 202511
-ult_periodo: 202510
-n_periodos: 3
-full: false
+periodo_predict: null
+ult_periodo: null
+n_periodos: null
+full: true

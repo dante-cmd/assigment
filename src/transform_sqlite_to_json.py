@@ -1,3 +1,5 @@
+import json
+from json import dumps
 import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Union
@@ -9,11 +11,14 @@ import yaml
 from uuid import uuid4
 from datetime import datetime
 import numpy as np
-from utils import get_last_n_periodos
+from utils import get_last_n_periodos, get_n_lags
 
 
 class DataTransformer:
-    def __init__(self, periodo_predict: int|None, ult_periodo: int|None, n_periodos: int|None, full: bool,db: DatabaseManager, log_path: str, data_path: str):
+    def __init__(
+        self, periodo_predict: int|None, ult_periodo: int|None, 
+        n_periodos: int|None, full: bool,db: DatabaseManager, 
+        log_path: str, data_path: str, dim_path:str,  items_predict_path: str, items_path: str, items_bim_path: str):
         self.periodo_predict = periodo_predict
         self.ult_periodo = ult_periodo
         self.n_periodos = n_periodos
@@ -23,6 +28,10 @@ class DataTransformer:
         self.db = db
         self.data_prog_presencial = None
         self.data_predict_presencial = None
+        self.dim_path = dim_path
+        self.items_predict_path = items_predict_path
+        self.items_path = items_path
+        self.items_bim_path = items_bim_path
 
     def get_fact_prog_acad(self):
         if not self.full:
@@ -146,8 +155,8 @@ class DataTransformer:
                     aulas[idx[:total_remaning]] += 1
                     return aulas.tolist()
         
-        ee = df_predict.apply(lambda row: split(row['FORECAST_ALUMN'], row['FORECAST_AULAS']), axis=1)
-        print(ee)
+        # ee = df_predict.apply(lambda row: split(row['FORECAST_ALUMN'], row['FORECAST_AULAS']), axis=1)
+        # print(ee)
         df_predict['ITEMS'] = df_predict.apply(lambda row: split(row['FORECAST_ALUMN'], row['FORECAST_AULAS']), axis=1)
         df_predict_01 = df_predict.explode('ITEMS', ignore_index=True)
         df_predict_02 = df_predict_01[['PERIODO', 'SEDE', 'CODIGO_DE_CURSO', 'HORARIO', 'ITEMS']].copy()
@@ -177,8 +186,18 @@ class DataTransformer:
              dim_horario
             """
             )
+        df_horario['HORARIO'] = df_horario['HORARIO'].astype('string')
+        df_horario['PERIODO_FRANJA'] = df_horario['PERIODO_FRANJA'].astype('string')
+        df_horario['TURNO_1'] = df_horario['TURNO_1'].astype('string')
+        df_horario['TURNO_2'] = df_horario['TURNO_2'].astype('string')
+        df_horario['TURNO_3'] = df_horario['TURNO_3'].astype('string')
+        df_horario['TURNO_4'] = df_horario['TURNO_4'].astype('string')
+        # list of turnos
+        df_horario['TURNOS'] = df_horario.apply(lambda row: [row['TURNO_1'], row['TURNO_2'], row['TURNO_3'], row['TURNO_4']], axis=1)
+        df_horario['TURNOS'] = df_horario['TURNOS'].apply(lambda x: [i for i in x if i != ''])
+        df_horario_01 = df_horario[['HORARIO', 'PERIODO_FRANJA', 'TURNOS']].copy()
         print(f"Successfully read dim_horario")
-        return df_horario
+        return df_horario_01
     
     def get_dim_aulas(self):
         df_aulas = self.db.query_to_dataframe(
@@ -249,7 +268,7 @@ class DataTransformer:
             NIVEL,
             REWARD
             FROM 
-             dim_rewards_sedes
+            dim_rewards_sedes
             """
             )
         print(f"Successfully read dim_rewards_sedes")
@@ -278,17 +297,56 @@ class DataTransformer:
             FRECUENCIA,
             NIVEL,
             CURSO_ANTERIOR,
-            CURSO_ACTUAL
-            FROM 
-             dim_cursos
+            CURSO_ACTUAL,
+            DURACION 
+            FROM dim_cursos
             """
             )
         print(f"Successfully read dim_cursos")
         return df_cursos
     
+    def get_dim_dias(self):
+        df_dias = self.db.query_to_dataframe(
+            """
+            SELECT 
+            FRECUENCIA,
+            DIA 
+            FROM dim_dias
+            """
+            )
+
+        df_dias_01 = df_dias.groupby(['FRECUENCIA'], as_index=False).agg(
+            DIAS=pd.NamedAgg(column='DIA', aggfunc=lambda x: list(x))
+        )
+        print(f"Successfully read dim_dias")
+        return df_dias_01
+
+    def get_dim_dias_turnos(self):
+
+        df_dias_turnos = self.db.query_to_dataframe(
+            """
+            SELECT 
+            DIA,
+            TURNO
+            FROM dim_dias_turnos
+            """
+            )
+
+        df_dias_turnos['AVAILABLE'] = 1
+        df_dias_turnos['TURNO_AVAILABLE'] = (
+            df_dias_turnos[['TURNO', 'AVAILABLE']].apply(lambda x: {'TURNO':x['TURNO'], 'AVAILABLE':x['TURNO']}, axis=1))
+
+
+        df_dias_01 = df_dias_turnos.groupby(['FRECUENCIA'], as_index=False).agg(
+            DIAS=pd.NamedAgg(column='DIA', aggfunc=lambda x: list(x))
+        )
+        print(f"Successfully read dim_dias")
+        return df_dias_01
+    
     def validate_fact_data(
         self, fact_data:pd.DataFrame, table_name:str, dim_curso:pd.DataFrame, 
-        dim_horario:pd.DataFrame, dim_sedes:pd.DataFrame, dim_vac_acad:pd.DataFrame):
+        dim_horario:pd.DataFrame, dim_sedes:pd.DataFrame, dim_vac_acad:pd.DataFrame,
+        dim_dias:pd.DataFrame):
 
         # Add dim_cursos to fact_data
         df_fact_data_01 = fact_data.merge(
@@ -350,12 +408,28 @@ class DataTransformer:
         else:
             logging.info(f"VAC_ACAD_ESTANDAR has no null values {table_name}")
 
-        return df_fact_data_04
+        # Add dim_dias to df_fact_data_04
+        df_fact_data_05 = df_fact_data_04.merge(
+            dim_dias, 
+            on=['FRECUENCIA'], how='left')
+        
+        # log if FRECUENCIA has null values
+        if df_fact_data_05['DIAS'].isnull().sum() > 0:
+            uuid = uuid4()
+            # save dataframe to csv
+            df_fact_data_05_null = df_fact_data_05[df_fact_data_05['DIAS'].isnull()].copy()
+            df_fact_data_05_null.to_csv(f'{self.log_path}/{table_name}_{uuid}.csv', index=False, encoding='utf-8')
+            logging.info(f"DIAS has null values, saved to {table_name}_{uuid}.csv")
+        else:
+            logging.info(f"DIAS has no null values {table_name}")
+
+        return df_fact_data_05
     
     def validate_data(self):
         df_fact_prog_acad = self.get_fact_prog_acad()
         df_fact_predict = self.get_fact_predict()
         df_dim_cursos = self.get_dim_cursos()
+        df_dim_dias = self.get_dim_dias()
         df_dim_horario = self.get_dim_horario()
         df_dim_sedes = self.get_dim_sedes()
         df_dim_vac_acad = self.get_dim_vac_acad()
@@ -369,10 +443,10 @@ class DataTransformer:
              'CANT_MATRICULADOS','VAC_HABILITADAS', 'START', 'END']].copy()
 
         df_fact_prog_acad_02 = self.validate_fact_data(
-            df_fact_prog_acad_01, 'fact_prog_acad', df_dim_cursos, df_dim_horario, df_dim_sedes, df_dim_vac_acad)
+            df_fact_prog_acad_01, 'fact_prog_acad', df_dim_cursos, df_dim_horario, df_dim_sedes, df_dim_vac_acad, df_dim_dias)
         
         df_fact_predict_01 = self.validate_fact_data(
-            df_fact_predict, 'fact_predict', df_dim_cursos, df_dim_horario, df_dim_sedes, df_dim_vac_acad)
+            df_fact_predict, 'fact_predict', df_dim_cursos, df_dim_horario, df_dim_sedes, df_dim_vac_acad, df_dim_dias)
 
         df_fact_prog_acad_presencial = df_fact_prog_acad_02[
             df_fact_prog_acad_02['LINEA_DE_NEGOCIO'] == 'Presencial'].copy()
@@ -486,43 +560,130 @@ class DataTransformer:
 
         # df_fact_predict_subset = df_fact_predict[['PERIODO', 'SEDE', 'CODIGO_DE_CURSO', 'HORARIO', 'FORECAST_ALUMN', 'FORECAST_AULAS']].copy()
 
-    def get_items_predict(self):
-        df_fact_predict = self.data_predict_presencial.copy()
-        df_fact_predict.to_json(f'{self.data_path}/items_predict.json', orient='records', lines=True)
-    
+    def validate_aulas_and_rewards(self):
+        df_dim_aulas = self.get_dim_aulas()
+        df_dim_rewards_sedes = self.get_dim_rewards_sedes()
+        df_dim_rewards_sedes_01 = df_dim_rewards_sedes[['SEDE', 'N_AULA']].drop_duplicates()
+        df_dim_rewards_sedes_01['FLAG_REWARD'] = 1
+
+        df_dim_aulas_01 = df_dim_aulas.merge(
+            df_dim_rewards_sedes_01, on=['SEDE', 'N_AULA'], how='left')
+        
+        if df_dim_aulas_01['FLAG_REWARD'].isnull().sum() > 0:
+            uuid = uuid4()
+            # save dataframe to csv
+            df_dim_aulas_01_null = df_dim_aulas_01[df_dim_aulas_01['FLAG_REWARD'].isnull()].copy()
+            df_dim_aulas_01_null.to_csv(f'{self.log_path}/dim_aulas_{uuid}.csv', index=False, encoding='utf-8')
+            logging.info(f"FLAG_REWARD has null values, saved to dim_aulas_{uuid}.csv")
+        else:
+            logging.info(f"FLAG_REWARD has no null values")
+
     def get_items(self):
-        df_fact_prog_acad = self.data_prog_presencial.copy()
-        df_fact_prog_acad.to_json(f'{self.data_path}/items.json', orient='records', lines=True)
-    
+        data_prog_presencial = self.data_prog_presencial.copy()
+        data_prog_presencial_01 = data_prog_presencial[
+            ['PERIODO', 'SEDE', 'CURSO_ACTUAL', 'HORARIO', 'AULA',  
+                 'CANT_MATRICULADOS', 'FRECUENCIA', 'NIVEL', 'DURACION', 'PERIODO_FRANJA', 
+                 'TURNOS', 'DIAS', 'VAC_ACAD_ESTANDAR']].copy()
+              
+        for group, data in data_prog_presencial_01.groupby('PERIODO'):
+            periodo = group
+            year = periodo//100
+            Path(f'{self.data_path}/{self.items_path}').mkdir(parents=True, exist_ok=True)
+            Path(f'{self.data_path}/{self.items_path}/{year}').mkdir(parents=True, exist_ok=True)
+            data_dict = data.to_dict(
+                orient='records')
+
+            if len(data_dict) == 0:
+                continue
+            
+            with open(f'{self.data_path}/{self.items_path}/{year}/items_{periodo}.json', 'w') as file:
+                file.write(dumps(data_dict, ensure_ascii=False, indent=4))
+        
     def get_items_bim(self):
-        df_fact_predict = self.data_predict_presencial.copy()
-        df_fact_predict.to_json(f'{self.data_path}/items_bim.json', orient='records', lines=True)
+        data_prog_presencial = self.data_prog_presencial.copy()
+        data_prog_presencial_01 = data_prog_presencial[
+            ['PERIODO', 'SEDE', 'CURSO_ACTUAL', 'HORARIO', 'AULA',  
+                 'CANT_MATRICULADOS', 'FRECUENCIA', 'NIVEL', 'DURACION', 'PERIODO_FRANJA', 
+                 'TURNOS', 'DIAS', 'VAC_ACAD_ESTANDAR']].copy()
+
+        data_prog_presencial_02 = data_prog_presencial_01[data_prog_presencial_01['DURACION'] == 'Bimensual'].copy()
+        data_prog_presencial_02['PERIODO'] = data_prog_presencial_02['PERIODO'].map(lambda x:  get_n_lags(x, -1))
+        for group, data in data_prog_presencial_02.groupby('PERIODO'):
+            periodo = group
+            year = periodo//100
+            Path(f'{self.data_path}/{self.items_bim_path}').mkdir(parents=True, exist_ok=True)
+            Path(f'{self.data_path}/{self.items_bim_path}/{year}').mkdir(parents=True, exist_ok=True)
+            data_dict = data.to_dict(
+                orient='records')
+            if len(data_dict) == 0:
+                continue
+            with open(f'{self.data_path}/{self.items_bim_path}/{year}/items_bim_{periodo}.json', 'w') as file:
+                file.write(dumps(data_dict, ensure_ascii=False, indent=4))
+    
+    def get_items_predict(self):
+        data_predict_presencial = self.data_predict_presencial.copy()
+        data_predict_presencial_01 = data_predict_presencial[
+            ['PERIODO', 'SEDE', 'CURSO_ACTUAL', 'HORARIO', 'AULA',  
+                 'FORECAST_ALUMN', 'FRECUENCIA', 'NIVEL', 'DURACION', 'PERIODO_FRANJA', 
+                 'TURNOS', 'DIAS', 'VAC_ACAD_ESTANDAR']].copy()
+        if self.full:
+            for group, data in data_predict_presencial_01.groupby('PERIODO'):
+                periodo = group
+                year = periodo//100
+                Path(f'{self.data_path}/{self.items_predict_path}').mkdir(parents=True, exist_ok=True)
+                Path(f'{self.data_path}/{self.items_predict_path}/{year}').mkdir(parents=True, exist_ok=True)
+                data_dict = data.to_dict(
+                    orient='records')
+                if len(data_dict) == 0:
+                    continue
+                with open(f'{self.data_path}/{self.items_predict_path}/{year}/items_predict_{periodo}.json', 'w') as file:
+                    file.write(dumps(data_dict, ensure_ascii=False, indent=4))
+        else:
+            periodo = self.periodo_predict
+            year = periodo//100
+            Path(f'{self.data_path}/{self.items_predict_path}').mkdir(parents=True, exist_ok=True)
+            Path(f'{self.data_path}/{self.items_predict_path}/{year}').mkdir(parents=True, exist_ok=True)
+            data_predict_presencial_dict = data_predict_presencial_01.to_dict(
+                orient='records')
+            with open(f'{self.data_path}/{self.items_predict_path}/{year}/items_predict_{periodo}.json', 'w') as file:
+                file.write(dumps(data_predict_presencial_dict, ensure_ascii=False, indent=4))
     
     def get_periodo_franja(self):
         df_dim_horario = self.get_dim_horario()
-        df_dim_horario.to_json(f'{self.data_path}/dim/periodo_franja.json', orient='records', lines=True)
+        df_dim_horario_dict = df_dim_horario.to_dict(
+            orient='records')
+        with open(f'{self.data_path}/{self.dim_path}/periodo_franja.json', 'w') as file:
+            file.write(dumps(df_dim_horario_dict, ensure_ascii=False, indent=4))
     
     def get_aulas(self):
         df_dim_aulas = self.get_dim_aulas()
-        df_dim_aulas.to_json(f'{self.data_path}/dim/aulas.json', orient='records', lines=True)
+        df_dim_aulas_dict = df_dim_aulas.to_dict(
+            orient='records')
+        with open(f'{self.data_path}/{self.dim_path}/aulas.json', 'w') as file:
+            file.write(dumps(df_dim_aulas_dict, ensure_ascii=False, indent=4))
     
     def get_frecuencia(self):
         df_dim_sedes = self.data_prog_presencial.copy()
-        df_dim_sedes.to_json(f'{self.data_path}/dim/frecuencia.json', orient='records', lines=True)
+        df_dim_sedes_dict = df_dim_sedes.to_dict(
+            orient='records')
+        with open(f'{self.data_path}/{self.dim_path}/frecuencia.json', 'w') as file:
+            file.write(dumps(df_dim_sedes_dict, ensure_ascii=False, indent=4))
     
     def get_rewards_sedes(self):
         df_dim_rewards_sedes = self.get_dim_rewards_sedes()
-        df_dim_rewards_sedes.to_json(f'{self.data_path}/dim/rewards_sedes.json', orient='records', lines=True)
-
-    def extract_all(self):
+        df_dim_rewards_sedes_dict = df_dim_rewards_sedes.to_dict(
+            orient='records')
+        with open(f'{self.data_path}/{self.dim_path}/rewards_sedes.json', 'w') as file:
+            file.write(dumps(df_dim_rewards_sedes_dict, ensure_ascii=False, indent=4))
+        
+    def transform_all(self):
         # falta validar dim_aulas sand dim_rewards_sedes, este se  debe incluir en validate_data
         self.validate_data()
+        self.validate_aulas_and_rewards()
         self.get_items()
-        self.get_items_predict()
         self.get_items_bim()
-        self.get_periodo_franja()
+        self.get_items_predict()
         self.get_aulas()
-        self.get_frecuencia()
         self.get_rewards_sedes()
     
 
@@ -538,18 +699,29 @@ if __name__ == '__main__':
     log_path = config['log_path']
     log_file = config['log_file']
     data_path = config['data_path']
+    dim = config['dim']
+    items_predict = config['items_predict']
+    items = config['items']
+    items_bim = config['items_bim']
 
-    logging.basicConfig(filename=f'{log_path}/{log_file}', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    logging.basicConfig(
+        filename=f'{log_path}/{log_file}', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
     drop_all=False
     db = DatabaseManager(db_path, drop_all)
     db.initialize_database()
 
-    data = DataTransformer(periodo_predict, ult_periodo, n_periodos, full, db, log_path, data_path)
+    data = DataTransformer(
+        periodo_predict, 
+        ult_periodo, n_periodos, full, db, log_path, data_path,
+        dim, items_predict, items, items_bim)
+
     # print(data.get_fact_predict())
     # print(data.get_fact_prog_acad_01())
-    # print(data.get_fact_prog_acad())
+    # print(data.get_dim_cursos())
     # print(data.get_dim_rewards_sedes())
-    data.validate_data()
-    print(data.data_predict_presencial.head().columns)
-    print(data.data_prog_presencial.head().columns)
+    # data.validate_data()
+    # data.validate_aulas_and_rewards()
+    data.transform_all()
+    # print(data.data_predict_presencial.head().columns)
+    # print(data.data_prog_presencial.head().columns)

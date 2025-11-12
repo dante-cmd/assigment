@@ -1,14 +1,12 @@
 import copy
 import json
 from pathlib import Path
-import numpy as np
 import pandas as pd
-from collections import defaultdict, deque
 import math, random, time
-import concurrent.futures
 import argparse
 import os
 import multiprocessing
+from algorithms.dataset import DataBase, DataLakeLoader
 
 
 class DataSet:
@@ -354,7 +352,7 @@ def run_mcts(sede: str, periodo_franja: str, iter_max: int = 5000):
     # return aulas
     
     df = pd.DataFrame(aulas)
-    Path('output').mkdir(exist_ok=True)
+    Path('../../output').mkdir(exist_ok=True)
 
     df.to_excel('output/assignments_{}.xlsx'.format(sede), index=False)
 

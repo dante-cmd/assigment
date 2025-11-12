@@ -113,8 +113,23 @@ class DimCursos(Base):
     NIVEL = Column(String)
     CURSO_ANTERIOR = Column(String, primary_key=True, index=True)
     CURSO_ACTUAL = Column(String)
+    DURACION = Column(String)
     created_at = Column(DateTime, server_default=func.now())
 
+
+class DimDias(Base):
+    __tablename__ = 'dim_dias'
+
+    FRECUENCIA = Column(String, primary_key=True, index=True)
+    DIA = Column(String, primary_key=True, index=True)
+    created_at = Column(DateTime, server_default=func.now())
+
+
+class DimDiasTurnos(Base):
+    __tablename__ = 'dim_dias_turnos'
+    DIA = Column(String, primary_key=True, index=True)
+    TURNO = Column(String, primary_key=True, index=True)
+    created_at = Column(DateTime, server_default=func.now())
 
 class FactProvicional(Base):
     __tablename__ = 'fact_provicional'
